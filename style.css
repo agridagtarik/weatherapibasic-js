@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: #fff;
+    background-image: url(city-photo.jpg);
+    font-family: 'montserrat', sans-serif;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.uygulama {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: rgba(0,0,0,0.5);
+    height: 100vh;
+}
+.header{
+    padding: 50px 20px 30px 20px;
+}
+.header h2 {
+    font-size: 50px;
+    color: #7bc1c6;
+    text-shadow: 1px 3px rgba(0,0,0,0.7);
+}
+.header input{
+    width: 100%;
+    padding: 0.5rem;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    border-bottom: 0.2rem solid #7bc1c6;
+    text-align: center;
+    font-size: 1rem;
+    color: #f2f2f2;
+}
+.city{
+    font-size: 2rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+    text-shadow: 1px 3px rgba(0,0,0,0.7);
+}
+.temp{
+    font-size: 2.3rem;
+    font-weight: 450;
+    margin-bottom: 1.1rem;
+    text-shadow: rgba(0,0,0,0.85);
+}
+.description{
+    font-size: 2.1rem;
+    font-style: italic;
+    text-shadow: rgba(0,0,0,0.7);
+    margin-bottom: 1rem;
+}
+.minmax{
+    font-size: 2rem;
+    text-shadow: rgba(0,0,0,0.7);
+}
